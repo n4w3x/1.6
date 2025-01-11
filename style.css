@@ -25,7 +25,8 @@
 
 body {
   margin: 0;
-  color: #1b1c21; }
+  color: #1b1c21;
+  max-width: 1460px; }
 
 a {
   text-decoration: none; }
