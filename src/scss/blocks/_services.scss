@@ -1,0 +1,115 @@
+.services {
+  padding-top: 24px;
+  padding-bottom: 35px;
+  background: $background-grey;
+  &__title {
+    display: flex;
+  }
+  &__text-title {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    color: $main-text-color;
+    margin-left: 16px;
+  }
+  &__text-title:before {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 3px;
+    background: $green;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    left: 0;
+  }
+  &__text,
+  &__icon {
+    display: none;
+  }
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 16px;
+    overflow: scroll;
+    white-space: nowrap;
+    margin: 0;
+    margin-top: 24px;
+    margin-left: 16px;
+  }
+  &__menu-item {
+    margin-right: 4px;
+  }
+  &__menu-btn {
+    display: block;
+    height: 2.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    color: $grey;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 8px 20px;
+    &:hover {
+      opacity: 1;
+      background: #fff;
+      border: 2px solid rgba(184, 255, 236, 1);
+      box-sizing: border-box;
+      border-radius: 6px;
+      padding: 6px 18px;
+    }
+  }
+  &__link:hover {
+    opacity: 1;
+  }
+  &__reviews-btn {
+    display: none;
+  }
+  &__descr {
+    min-height: 5.625rem;
+    margin: 24px 16px 16px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.2px;
+    color: $main-text-color;
+  }
+  &__descr-further,
+  &__descr-end {
+    display: none;
+  }
+  &__descr-further--active,
+  &__descr-end--active {
+    display: inline;
+  }
+  &__btn {
+    display: flex;
+    justify-content: space-between;
+    width: 9rem;
+    height: 1.5rem;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    border: none;
+    background: none;
+  }
+  &__read {
+    width: 6.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    color: $main-text-color;
+  }
+  &__logo {
+    width: 320px;
+  }
+}
+
+.rotate {
+  transform: rotate(180deg);
+}

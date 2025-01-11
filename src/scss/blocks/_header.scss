@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 88px;
+  background: #ffffff;
+  padding-left: 16px;
+  padding-right: 16px;
+  &__burger {
+    display: flex;
+    width: 16px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: $pink;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 17px;
+    &:focus {
+      border-radius: 50%;
+    }
+  }
+  &__burger-logo {
+    background: none;
+    border: none;
+  }
+  &__img-logo {
+    width: 96px;
+    height: 51px;
+  }
+  &__actions {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    // margin-left: auto;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 68%;
+}
+
+.action {
+  width: 40px;
+  &:nth-child(1),
+  &:nth-child(2),
+  &:nth-child(3) {
+    display: none;
+  }
+  &:nth-child(4) {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  &:nth-child(4):before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    width: 2px;
+    height: 32px;
+    background: $light-grey;
+    border-radius: 1px;
+  }
+  &:nth-child(5) {
+    margin-left: 16px;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 20px;
+    border: none;
+    background: $pink;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    &:focus {
+      border-radius: 50%;
+    }
+  }
+}

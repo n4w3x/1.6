@@ -1,0 +1,19 @@
+.footer {
+  background: $background-grey;
+  padding-top: 16px;
+  padding-bottom: 19px;
+  &__info-span--768 {
+    display: none;
+  }
+  &__info {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: $grey;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+}

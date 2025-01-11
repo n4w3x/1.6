@@ -1,0 +1,117 @@
+.prices {
+  min-width: 320px;
+  background: $background-grey;
+  padding-bottom: 40px;
+  &__swiper-wrapper {
+    margin-bottom: 16px;
+  }
+}
+
+.prices-swiper {
+  width: 260px;
+  height: 230px;
+}
+
+.slide-prices {
+  background: #ffffff;
+  padding: 16px;
+  margin-bottom: 16px;
+  height: 200px;
+}
+
+.wrapper-services {
+  position: relative;
+  width: 228px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
+.subtitle-services,
+.subtitle-price,
+.term {
+  font-size: 14px;
+  line-height: 16px;
+  color: $grey;
+  mix-blend-mode: normal;
+  opacity: 0.72;
+  margin-bottom: 4px;
+}
+
+.service-text,
+.price-val,
+.duration {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: $main-text-color;
+}
+
+.wrapper-price {
+  margin-bottom: 16px;
+}
+
+.btn-order {
+  display: flex;
+  position: absolute;
+  left: 47.56%;
+  right: 21.25%;
+  top: 75.92%;
+  bottom: 24.31%;
+  vertical-align: middle;
+  width: 119px;
+  height: 32px;
+  background: $pink;
+  border: none;
+  border-radius: 16px;
+  padding: 4px 8px 4px 12px;
+  &:focus {
+    border-radius: 16px;
+  }
+}
+
+.prices__table {
+  display: none;
+}
+
+.order-text {
+  width: 67px;
+  height: 24px;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.15px;
+  text-transform: uppercase;
+  margin-right: 8px;
+  color: #ffffff;
+}
+
+.prices__block--hidden,
+.btn-order--hidden {
+  display: none;
+}
+
+.application {
+  min-width: 288px;
+  margin: 16px 16px 0;
+  color: $main-text-color;
+  &__text {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+  }
+  &__proposal {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    margin-top: 25px;
+  }
+}
+
+.offer-arrow {
+  margin-left: 10px;
+}
+
+.swiper > .prices__pagination {
+  bottom: 2px;
+}

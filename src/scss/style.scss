@@ -1,0 +1,55 @@
+$main-text-color: #1b1c21;
+$pink: #ff3e79;
+$light-grey: #eaeaea;
+$grey: #7e7e82;
+$green: #41f6d7;
+$background-grey: #f8f8f8;
+
+@import 'base/fonts';
+
+* {
+  font-family: 'TT Lakes';
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: $main-text-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+button,
+.services__arrow,
+.brands__arrow,
+.technic__arrow {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+a:hover,
+button:hover {
+  opacity: 0.7;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+  border-radius: 5px;
+}
+
+@import 'blocks/header-menu';
+@import 'blocks/header';
+@import 'blocks/services';
+@import 'blocks/brands';
+@import 'blocks/technic';
+@import 'blocks/prices';
+@import 'blocks/footer';
+@import 'blocks/modal-call';
+@import 'blocks/modal-feedback';
+
+@import 'base/media';
