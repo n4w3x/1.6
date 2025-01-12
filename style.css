@@ -26,7 +26,7 @@
 body {
   margin: auto;
   color: #1b1c21;
-  max-width: 1460px; }
+  max-width: 1440px; }
 
 a {
   text-decoration: none; }
@@ -1102,11 +1102,6 @@ h3 {
     .modal-call__text,
     .modal-feedback__text {
       width: 293px; } }
-
-@media (min-width: 1704px) {
-  .swiper-slide:nth-child(9),
-  .swiper-slide:nth-child(10) {
-    display: block; } }
 
 
 /*# sourceMappingURL=style.css.map*/
